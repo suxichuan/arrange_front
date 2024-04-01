@@ -1,0 +1,14 @@
+<el-table-column class-name="status-col" label="人员状态" align="center">
+        <template slot-scope="scope">
+          <el-tooltip class="item" effect="dark" content="禁用后该值班点不可排班" placement="top">
+            <el-tag :type="scope.row.staff_status | statusFilter">{{ scope.row.staff_status == 1 ? '启用' : '禁用' }}
+              <el-switch
+                v-model="scope.row.staff_status==1 ? true:false"
+                active-color="#13ce66"
+                inactive-color="#ff4949"
+                @change="updatePlacestatus(scope.row.staff_code,scope.row.staff_status)"
+              />
+            </el-tag>
+          </el-tooltip>
+        </template>
+      </el-table-column>
