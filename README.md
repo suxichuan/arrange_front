@@ -13,7 +13,7 @@ OS版本 Windows 10 家庭中文版 64 位操作系统, 基于 x64 的处理器 
 
 1. 登录界面
 
-   ![image-20240401100518605](C:\Users\71478\AppData\Roaming\Typora\typora-user-images\image-20240401100518605.png)
+   ![image-20240401100518605](https://img-blog.csdnimg.cn/direct/365e3899ef774b339914ee3d2b48f018.png)
 
 2. 排班管理-周排班
 
